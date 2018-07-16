@@ -1,0 +1,23 @@
+[
+	{
+		"id": 0,
+		"name_en": "Note",
+		"type": "Note",
+		"description_en": "This is the first note.\nAnd this is the second line.",
+		"stackable": false,
+		"pickupsound": "Pickup",
+		"usedsound": "FlipPage",
+		"slug": "note"
+	},
+
+  {
+    "id": 1,
+    "name_en": "Key item",
+    "type": "KeyItem",
+    "description_en": "This is the key item's description.",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "",
+    "slug": "note"
+  }
+]
