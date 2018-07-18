@@ -107,6 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueImage: {fileID: 114051893526939998}
   dialogueText: {fileID: 114154138591009930}
+  portrait: {fileID: 0}
 --- !u!114 &114051893526939998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -229,6 +230,8 @@ MonoBehaviour:
   textFadeTime: 0.8
   typedText: 0
   dialogueTextPause: 0.1
+  usePortrait: 0
+  portraits: []
   _playerManager: {fileID: 0}
 --- !u!222 &222380620531133532
 CanvasRenderer:
@@ -261,7 +264,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: -614121145
+  m_SortingLayerID: -21188273
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &224180059816726598

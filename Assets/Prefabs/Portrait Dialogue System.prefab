@@ -163,6 +163,7 @@ MonoBehaviour:
   textFadeTime: 0.8
   typedText: 0
   dialogueTextPause: 0.1
+  usePortrait: 0
   portraits:
   - name: normal
     sprite: {fileID: 21300000, guid: 2c9427ceef31e4a64937cfc1c100410d, type: 3}
@@ -263,7 +264,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueImage: {fileID: 114429572521283586}
   dialogueText: {fileID: 114636812969081848}
-  usePortait: 1
   portrait: {fileID: 114530824685996860}
 --- !u!114 &114903434461527298
 MonoBehaviour:
@@ -319,7 +319,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: -614121145
+  m_SortingLayerID: -21188273
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &224292947714397012

@@ -14,7 +14,7 @@ namespace Shoguneko
         protected  float FADE_SEC = 2f;
 
         [Tooltip("Camera that will shake.")]
-        public Camera shake;
+        public Camera cam;
         [Tooltip("Black image used for fading.")]
         public Image fade;
 
@@ -174,10 +174,10 @@ namespace Shoguneko
             return promiseTimer.WaitUntil(t => !(SomeoneIsTalking = chara.Talking()));
         }
 
-        protected IPromise ShakeCamera()
+        protected IPromise ShakeCamera(float duration)
         {
             bool completed = false;
-            shake.DOShakePosition(3).OnComplete(() => completed = true);
+            cam.DOShakePosition(duration).OnComplete(() => completed = true);
             return promiseTimer.WaitUntil(t => completed);
         }
     }

@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - UI_Canvas
+  - Player Manager
+  - NPC Manager
+  - NPC
+  - Cutscene Manager
+  - Obstacle
+  - CSC Manager
   layers:
   - Default
   - TransparentFX
@@ -13,7 +20,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Interactable
   - 
   - 
   - 
@@ -38,6 +45,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Ground
+    uniqueID: 3498637197
+    locked: 0
+  - name: Building1
+    uniqueID: 3551558863
+    locked: 0
+  - name: Building2
+    uniqueID: 1871312391
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1675844453
+    locked: 0
+  - name: UI
+    uniqueID: 4273779023
     locked: 0

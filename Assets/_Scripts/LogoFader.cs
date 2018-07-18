@@ -27,7 +27,7 @@ namespace Shoguneko
         void Update()
         {
 #if UNITY_EDITOR
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Cutscene1");
 #endif
 
             if (playedOnce)
