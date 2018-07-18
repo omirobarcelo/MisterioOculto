@@ -11,6 +11,8 @@ TagManager:
   - Cutscene Manager
   - Obstacle
   - CSC Manager
+  - Button
+  - VCam
   layers:
   - Default
   - TransparentFX
@@ -21,7 +23,7 @@ TagManager:
   - 
   - 
   - Interactable
-  - 
+  - Player
   - 
   - 
   - 
@@ -47,6 +49,9 @@ TagManager:
   m_SortingLayers:
   - name: Ground
     uniqueID: 3498637197
+    locked: 0
+  - name: BehindBuilding
+    uniqueID: 1967670089
     locked: 0
   - name: Building1
     uniqueID: 3551558863

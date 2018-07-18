@@ -26,10 +26,11 @@ namespace Shoguneko
             {
                 WaitFor(1)
                     .Then(() => WaitWhileCharaSpeaks(dManagers[CharaTalking = "mc"]))
+                    .Then(() => FadeIn(FADE_SEC))
                     .Done(() =>
                     {
                         Debug.Log("Finished");
-                        //Grid.helper.ChangeScene("Outside", "init");
+                        Grid.helper.ChangeScene("Outside1", "init");
                     });
 
             });

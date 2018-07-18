@@ -1,0 +1,2 @@
+normal=Check under the doormat.
+normal=The key might be there.

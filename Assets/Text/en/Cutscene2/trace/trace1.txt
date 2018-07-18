@@ -1,0 +1,3 @@
+upset=What?
+upset=Everyone does that. That's too conventional.
+normal=I'm sure it's somewhere else, like the vase over there.

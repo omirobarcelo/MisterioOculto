@@ -174,10 +174,31 @@ namespace Shoguneko
             return promiseTimer.WaitUntil(t => !(SomeoneIsTalking = chara.Talking()));
         }
 
+        protected IPromise MoveCameraY(float dist, float duration)
+        {
+            bool completed = false;
+            cam.gameObject.transform.DOMoveY(dist, duration).SetRelative(true).OnComplete(() => completed = true);
+            return promiseTimer.WaitUntil(t => completed);
+        }
+
         protected IPromise ShakeCamera(float duration)
         {
             bool completed = false;
             cam.DOShakePosition(duration).OnComplete(() => completed = true);
+            return promiseTimer.WaitUntil(t => completed);
+        }
+
+        protected IPromise FadeIn(float duration)
+        {
+            bool completed = false;
+            fade.DOFade(1, duration).OnComplete(() => completed = true);
+            return promiseTimer.WaitUntil(t => completed);
+        }
+
+        protected IPromise FadeOut(float duration)
+        {
+            bool completed = false;
+            fade.DOFade(0, duration).OnComplete(() => completed = true);
             return promiseTimer.WaitUntil(t => completed);
         }
     }

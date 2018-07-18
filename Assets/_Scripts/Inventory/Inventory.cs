@@ -166,6 +166,36 @@ namespace Shoguneko
         }
 
         /// <summary>
+        /// Removes the item.
+        /// </summary>
+        /// <param name="id">Identifier.</param>
+        public void RemoveItem(int id, int amount = -1)
+        {
+            for (int i = 0; i < items.Count; i++)
+            {
+                if (items[i].ID == id)
+                {
+                    ItemData data = slots[i].GetComponentInChildren<ItemData>();
+                    // If we want to remove just an amount and there are more items than this amount
+                    if (amount != -1 && data.amount > amount)
+                    {
+                        data.amount -= amount;
+                        // Set the text to show our new amount we have.
+                        data.GetComponentInChildren<Text>().text = data.amount.ToString();
+                    }
+                    else
+                    {
+                        // Return item to empty
+                        items[i] = new Item();
+                        // Remove item from slot
+                        Grid.helper.DestroyGameObjectsByParent(slots[i]);
+                    }
+                    break;
+                }
+            }
+        }
+
+        /// <summary>
         /// Returns the amount of free spots in your inventory.
         /// </summary>
         /// <returns>The free spots.</returns>

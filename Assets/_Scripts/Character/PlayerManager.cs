@@ -53,7 +53,14 @@ namespace Shoguneko
                 if (hit.collider != null)
                 {
                     IInteractable interactable = hit.collider.GetComponentInParent<IInteractable>();
-                    interactable.Interact();
+                    if (interactable == null)
+                    {
+                        Debug.Log("No interaction possible or error");
+                    }
+                    else
+                    {
+                        interactable.Interact();
+                    }
                 }
 
             }

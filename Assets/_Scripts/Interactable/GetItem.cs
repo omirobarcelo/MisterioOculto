@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Shoguneko
 {
     public class GetItem : MonoBehaviour, IInteractable
     {
+        public UnityEvent interacted;
+
         public int itemID;
         public int obtainedAmount;
         public int possessedAmount;
@@ -72,6 +75,9 @@ namespace Shoguneko
                             akd.dialogue[i][j] = akd.dialogue[i][j].Replace(NAME, Grid.itemDataBase.FetchItemByID(itemID).Name_en);
                         }
                     }
+
+                    interacted.Invoke();
+
                     akd.CreateDialogue();
                 }
             }

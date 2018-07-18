@@ -4,6 +4,7 @@ namespace Shoguneko
 {
 
     public enum CharacterType { Player, NPC, All }
+    public enum Facing {Up, Right, Down, Left}
 
     public abstract class Character : MonoBehaviour
     {

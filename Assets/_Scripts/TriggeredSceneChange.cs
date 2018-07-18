@@ -6,6 +6,7 @@ namespace Shoguneko
 {
     public class TriggeredSceneChange : MonoBehaviour
     {
+        public string scene;
         public bool DeactivateAfterTrigger;
 
         // Use this for initialization
@@ -23,13 +24,13 @@ namespace Shoguneko
         private void OnTriggerEnter2D(Collider2D col)
         {
             // If it's the player
-            if (col.gameObject.tag.Equals("Player"))
+            if (col.gameObject.CompareTag("Player"))
             {
                 if (DeactivateAfterTrigger)
                 {
                     gameObject.SetActive(false);
                 }
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Cutscene");
+                Grid.helper.ChangeScene(scene);
             }
         }
     }

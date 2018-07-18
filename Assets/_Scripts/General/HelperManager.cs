@@ -200,15 +200,18 @@ namespace Shoguneko
         /// (Remember this is only in the demo, you can have your save setup however you want).
         /// </summary>
         /// <param name="newScene">New scene.</param>
-        public void ChangeScene(string newScene, string exitID)
+        public void ChangeScene(string newScene, string exitID = null)
         {
             // Save the player setup.
             //SavePlayerSetup();
             // Save any scene based information.
             //SaveSceneSetup(newScene, spawnLocation);
 
-            // Save exit point id
-            PlayerPrefs.SetString(EXIT_ID, exitID);
+            if (string.IsNullOrEmpty(exitID))
+            {
+                // Save exit point id
+                PlayerPrefs.SetString(EXIT_ID, exitID);
+            }
 
             // Change the scene.
             SceneManager.LoadScene(newScene);

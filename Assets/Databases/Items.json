@@ -1,6 +1,17 @@
 [
+  {
+    "id": 0,
+    "name_en": "Entrance key",
+    "type": "KeyItem",
+    "description_en": "The key for the entrance's door.",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "",
+    "slug": "small_key"
+  },
+
 	{
-		"id": 0,
+		"id": 999,
 		"name_en": "Note",
 		"type": "Note",
 		"description_en": "This is the first note.\nAnd this is the second line.",
@@ -11,7 +22,7 @@
 	},
 
   {
-    "id": 1,
+    "id": 1000,
     "name_en": "Key item",
     "type": "KeyItem",
     "description_en": "This is the key item's description.",

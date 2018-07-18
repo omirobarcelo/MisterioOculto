@@ -8,21 +8,27 @@ namespace Shoguneko
 {
     public class NPCManager : Character, IInteractable
     {
-        [Inject(InjectFrom.Anywhere)]
-        public PlayerManager _playerManager;
+        //[Inject(InjectFrom.Anywhere)]
+        //public PlayerManager _playerManager;
+
+        public string DialogueDirectory;
+        public Facing InitialFacing;
 
         private ActionKeyDialog akd;
 
         private string dialogPath;
-        private string dialogDir = "trace";
 
         void Awake()
         {
             // Assign the Animator Component.
             CharacterAnimator = characterEntity.GetComponent<Animator>();
 
+            // Adjust NPC facing
+            Turn(InitialFacing);
+
+            // Set the dialogue system
             akd = GetComponentInChildren<ActionKeyDialog>();
-            string[] arr = { Application.dataPath, "Text", Grid.optionsManager.lang, SceneManager.GetActiveScene().name, dialogDir };
+            string[] arr = { Application.dataPath, "Text", Grid.optionsManager.lang, SceneManager.GetActiveScene().name, DialogueDirectory };
             dialogPath = string.Join("/", arr);
             akd.getDialogueFiles(dialogPath);
         }
@@ -50,11 +56,8 @@ namespace Shoguneko
 
         public void Interact()
         {
-            Debug.Log("It's me, Trace!");
-
             // Make the NPC face the player
-            // TODO switch to setup get player transform
-            Vector2 playerPos = _playerManager.characterEntity.transform.position;
+            Vector2 playerPos = Grid.setup.player.characterEntity.transform.position;
             Vector2 NPCPos = characterEntity.transform.position;
             Vector2 posDiff = playerPos - NPCPos;
             float hor = Mathf.Abs(posDiff.x) < Mathf.Abs(posDiff.y) ? 0f : (playerPos.x > NPCPos.x ? 1f : -1f);
@@ -62,8 +65,36 @@ namespace Shoguneko
             CharacterAnimator.SetFloat("FaceX", hor);
             CharacterAnimator.SetFloat("FaceY", vert);
 
+            // Record the interaction (since Interact executed also to close the dialogue, only record the first time)
+            if (!akd.DialoguePlaying())
+            {
+                Grid.recorder.Interacted(DialogueDirectory);
+            }
             // Create dialog
             akd.CreateDialogue();
+        }
+
+        private void Turn(Facing facing)
+        {
+            switch (facing)
+            {
+                case Facing.Up:
+                    CharacterAnimator.SetFloat("FaceX", 0f);
+                    CharacterAnimator.SetFloat("FaceY", 1f);
+                    break;
+                case Facing.Right:
+                    CharacterAnimator.SetFloat("FaceX", 1f);
+                    CharacterAnimator.SetFloat("FaceY", 0f);
+                    break;
+                case Facing.Down:
+                    CharacterAnimator.SetFloat("FaceX", 0f);
+                    CharacterAnimator.SetFloat("FaceY", -1f);
+                    break;
+                case Facing.Left:
+                    CharacterAnimator.SetFloat("FaceX", -1f);
+                    CharacterAnimator.SetFloat("FaceY", 0f);
+                    break;
+            }
         }
     }
 }

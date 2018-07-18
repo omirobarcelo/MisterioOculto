@@ -13,6 +13,7 @@ namespace Shoguneko
         public static Inventory inventory;
         public static OptionsManager optionsManager;
         public static Setup setup;
+        public static Recorder recorder;
 
 
         static Grid()
@@ -23,6 +24,7 @@ namespace Shoguneko
             itemDataBase = (ItemDatabase)SafeComponent(g, "ItemDatabase");
             inventory = (Inventory)SafeComponent(g, "Inventory");
             setup = (Setup)SafeComponent(g, "Setup");
+            recorder = (Recorder)SafeComponent(g, "Recorder");
 
             g = SafeFind("SoundManager");
             soundManager = (SoundManager)SafeComponent(g, "SoundManager");
