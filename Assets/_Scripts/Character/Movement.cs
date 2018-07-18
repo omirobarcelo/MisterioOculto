@@ -48,6 +48,12 @@ namespace Shoguneko
             }
         }
 
+        public void StopMovement()
+        {
+            moveHorizontal = 0f;
+            moveVertical = 0f;
+        }
+
         void FixedUpdate()
         {
             // IF we are allowed to move.

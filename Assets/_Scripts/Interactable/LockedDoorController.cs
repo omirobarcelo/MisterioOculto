@@ -6,7 +6,7 @@ namespace Shoguneko
 {
     public class LockedDoorController : MonoBehaviour
     {
-        [Tooltip("The itemID of the necessary object to go through the door")]
+        [Tooltip("The itemID of the necessary object to go through the door.")]
         public int keyID;
 
         public bool RemoveItemAfterUse;

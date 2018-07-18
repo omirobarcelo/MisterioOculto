@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Cutscene4.unity
     guid: d9d61cfd8a1534bc09aa38a880332d8c
+  - enabled: 1
+    path: Assets/_Scenes/Outside3.unity
+    guid: e1ada7ec10e74433e8d5b41e5ec244d6
   m_configObjects: {}

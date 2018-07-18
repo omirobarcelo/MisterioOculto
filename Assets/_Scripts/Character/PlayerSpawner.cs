@@ -9,6 +9,8 @@ namespace Shoguneko
 {
     public class PlayerSpawner : MonoBehaviour
     {
+        public readonly string START_ID = "init";
+
         [Inject(InjectFrom.Anywhere)]
         public PlayerManager _player;
         public SpawnPoint[] spawnPoints;
@@ -53,6 +55,14 @@ namespace Shoguneko
             _player.characterEntity.SetActive(true);
             GameObject vcam = GameObject.FindWithTag("VCam");
             vcam.GetComponent<Cinemachine.CinemachineVirtualCamera>().Follow = _player.characterEntity.transform;
+            // If it's a start position, make the player idle and face down
+            if (prevSceneExitID.Equals(START_ID))
+            {
+                _player.GetComponentInChildren<Movement>().StopMovement();
+                _player.CharacterAnimator.Play("Idle");
+                _player.CharacterAnimator.SetFloat("FaceX", 0f);
+                _player.CharacterAnimator.SetFloat("FaceY", -1f);
+            }
             // Explicit call because needs to be executed after this OnSceneLoaded 
             // and we cannot determine the order of execution 
             Grid.setup.setLoadedLevel();

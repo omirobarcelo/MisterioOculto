@@ -10,6 +10,17 @@
     "slug": "small_key"
   },
 
+  {
+    "id": 1,
+    "name_en": "Fuses",
+    "type": "KeyItem",
+    "description_en": "A bunch of fuses of different voltage.",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "",
+    "slug": "small_key"
+  },
+
 	{
 		"id": 999,
 		"name_en": "Note",
