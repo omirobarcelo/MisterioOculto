@@ -1,0 +1,3 @@
+normal=I have no interest in exploring this run-down house.
+normal=And it's way to dark.
+normal=Let's just go back.

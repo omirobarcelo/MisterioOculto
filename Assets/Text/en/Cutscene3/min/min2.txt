@@ -1,0 +1,2 @@
+normal=I think I saw a fusebox outside.
+normal=Let's check it out!

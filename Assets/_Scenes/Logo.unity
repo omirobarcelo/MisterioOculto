@@ -711,6 +711,10 @@ MonoBehaviour:
     BGMusic: {fileID: 8300000, guid: 9f1ce3ae7607a47f5ad5cf68bdaade98, type: 3}
   - Name: Outside2
     BGMusic: {fileID: 8300000, guid: 9f1ce3ae7607a47f5ad5cf68bdaade98, type: 3}
+  - Name: Cutscene3
+    BGMusic: {fileID: 0}
+  - Name: Cutscene4
+    BGMusic: {fileID: 8300000, guid: 9f1ce3ae7607a47f5ad5cf68bdaade98, type: 3}
 --- !u!114 &516974547
 MonoBehaviour:
   m_ObjectHideFlags: 0

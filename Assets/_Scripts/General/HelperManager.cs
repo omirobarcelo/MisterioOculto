@@ -207,7 +207,7 @@ namespace Shoguneko
             // Save any scene based information.
             //SaveSceneSetup(newScene, spawnLocation);
 
-            if (string.IsNullOrEmpty(exitID))
+            if (!string.IsNullOrEmpty(exitID))
             {
                 // Save exit point id
                 PlayerPrefs.SetString(EXIT_ID, exitID);

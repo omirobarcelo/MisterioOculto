@@ -1,0 +1,2 @@
+normal=I think I saw a shack around here.
+normal=Probably the family used to keep garden utensils and similar there.
