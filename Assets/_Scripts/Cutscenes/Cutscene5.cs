@@ -71,7 +71,7 @@ namespace Shoguneko
                     .Done(() =>
                     {
                         Debug.Log("Finished");
-                        //Grid.helper.ChangeScene("Outside3", "init");
+                        Grid.helper.ChangeScene("Hall1", "init");
                     });
 
             });

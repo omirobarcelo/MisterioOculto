@@ -13,6 +13,8 @@ TagManager:
   - CSC Manager
   - Button
   - VCam
+  - SpawnPoint
+  - ExitPoint
   layers:
   - Default
   - TransparentFX
