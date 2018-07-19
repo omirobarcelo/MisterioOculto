@@ -71,14 +71,14 @@ namespace Shoguneko
             act(value);
         }
 
-        protected IEnumerator MoveY(Action resolve, CSCManager chara, float dist, bool followUp = false, float speed = 1f)
+        protected IEnumerator MoveY(Action resolve, CSCManager chara, float dist, bool followUp = false, bool backwards = false, float speed = 1f)
         {
             Debug.Log("here MoveY");
 
             // Change chara sprite/animation
             // If dist > 0, chara faces up
             // Else faces down
-            if (dist > 0)
+            if ((backwards ? dist * -1 : dist) > 0)
             {
                 chara.TurnUp();
             }
@@ -111,14 +111,14 @@ namespace Shoguneko
             resolve();
         }
 
-        protected IEnumerator MoveX(Action resolve, CSCManager chara, float dist, bool followUp = false, float speed = 1f)
+        protected IEnumerator MoveX(Action resolve, CSCManager chara, float dist, bool followUp = false, bool backwards = false, float speed = 1f)
         {
             Debug.Log("here MoveX");
 
             // Change chara sprite/animation
             // If dist > 0, chara faces right
             // Else faces left
-            if (dist > 0)
+            if ((backwards ? dist*-1 : dist) > 0)
             {
                 chara.TurnRight();
             }
@@ -153,14 +153,14 @@ namespace Shoguneko
 
 
 
-        protected IPromise PromMoveY(CSCManager chara, float dist, bool followUp = false, float speed = 1f)
+        protected IPromise PromMoveY(CSCManager chara, float dist, bool followUp = false, bool backwards = false, float speed = 1f)
         {
-            return new Promise((resolve, reject) => StartCoroutine(MoveY(resolve, chara, dist, followUp, speed)));
+            return new Promise((resolve, reject) => StartCoroutine(MoveY(resolve, chara, dist, followUp, backwards, speed)));
         }
 
-        protected IPromise PromMoveX(CSCManager chara, float dist, bool followUp = false, float speed = 1f)
+        protected IPromise PromMoveX(CSCManager chara, float dist, bool followUp = false, bool backwards = false, float speed = 1f)
         {
-            return new Promise((resolve, reject) => StartCoroutine(MoveX(resolve, chara, dist, followUp, speed)));
+            return new Promise((resolve, reject) => StartCoroutine(MoveX(resolve, chara, dist, followUp, backwards, speed)));
         }
 
         protected IPromise WaitFor(float timeToWait)

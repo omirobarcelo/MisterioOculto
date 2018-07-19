@@ -1,0 +1,2 @@
+upset=Are you okay?
+normal=I'm glad that you're not hurt.

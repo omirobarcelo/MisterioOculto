@@ -1,0 +1,2 @@
+upset=Do you only care about yourself?
+normal=I think we should call for some help and just wait.
