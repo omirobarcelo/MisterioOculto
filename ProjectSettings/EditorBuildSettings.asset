@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Kitchen2.unity
     guid: 24d2024244ae04c5295a7a71a55ddaf5
+  - enabled: 1
+    path: Assets/_Scenes/Cave1.unity
+    guid: 2142343a0d81e42b298f675f227d5293
   m_configObjects: {}

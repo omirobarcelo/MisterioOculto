@@ -43,6 +43,50 @@
     "slug": "small_key"
   },
 
+  {
+    "id": 4,
+    "name_en": "Red key",
+    "type": "KeyItem",
+    "description_en": "A red colored key.",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "",
+    "slug": "small_key"
+  },
+
+  {
+    "id": 5,
+    "name_en": "Green key",
+    "type": "KeyItem",
+    "description_en": "A green colored key.",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "",
+    "slug": "small_key"
+  },
+
+  {
+    "id": 6,
+    "name_en": "Blue key",
+    "type": "KeyItem",
+    "description_en": "A blue colored key.",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "",
+    "slug": "small_key"
+  },
+
+  {
+    "id": 7,
+    "name_en": "Journal 1",
+    "type": "Note",
+    "description_en": "Placeholder",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "FlipPage",
+    "slug": "note"
+  },
+
 	{
 		"id": 999,
 		"name_en": "Note",
