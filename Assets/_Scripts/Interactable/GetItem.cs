@@ -9,6 +9,9 @@ namespace Shoguneko
     {
         public UnityEvent interacted;
 
+        public bool DisableAfterInteraction;
+        private bool disabled = false;
+
         public int itemID;
         public int obtainedAmount;
         public int possessedAmount;
@@ -34,6 +37,13 @@ namespace Shoguneko
         // Update is called once per frame
         void Update()
         {
+            // Necessary because akd.CreateDialogue() starts a coroutine and
+            // we need to wait until it ends completely because deactivating 
+            // the object, or else the player gets frozen
+            if (disabled && Grid.setup.PlayerInControl())
+            {
+                gameObject.SetActive(false);
+            }
 
         }
 
@@ -42,6 +52,11 @@ namespace Shoguneko
             if (akd.DialoguePlaying())
             {
                 akd.CreateDialogue();
+                // There should be only one line of dialogue, so we can disable it here
+                if (DisableAfterInteraction)
+                {
+                    disabled = true;
+                }
             }
             else
             {

@@ -21,6 +21,28 @@
     "slug": "small_key"
   },
 
+  {
+    "id": 2,
+    "name_en": "Clue in kitchen",
+    "type": "ImageNote",
+    "description_en": "clue_kitchen",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "FlipPage",
+    "slug": "note"
+  },
+
+  {
+    "id": 3,
+    "name_en": "Master key",
+    "type": "KeyItem",
+    "description_en": "They key to all the rooms.",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "",
+    "slug": "small_key"
+  },
+
 	{
 		"id": 999,
 		"name_en": "Note",

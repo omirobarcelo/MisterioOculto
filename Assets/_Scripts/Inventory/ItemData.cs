@@ -33,18 +33,33 @@ namespace Shoguneko
                 Grid.soundManager.PlaySound(item.UsedSound);
             }
             // TODO check language to select description
-            if (item.Type == Item.TYPE.Note)
+            switch (item.Type)
             {
-                //Debug.Log(item.Description_en);
+                case Item.TYPE.Note:
+                    {
+                        //Debug.Log(item.Description_en);
 
-                GameObject canvasNote = Instantiate(Grid.setup.GetGameObjectPrefab("CanvasNote"));
-                canvasNote.GetComponentInChildren<UnityEngine.UI.Text>().text = item.Description_en;
-            }
-            else if (item.Type == Item.TYPE.KeyItem)
-            {
-                //Debug.Log(item.Description_en);
-                GameObject canvasKeyItem = Instantiate(Grid.setup.GetGameObjectPrefab("CanvasInfoDialog"));
-                canvasKeyItem.GetComponentInChildren<UnityEngine.UI.Text>().text = item.Description_en;
+                        GameObject canvasNote = Instantiate(Grid.setup.GetGameObjectPrefab("CanvasNote"));
+                        canvasNote.GetComponentInChildren<UnityEngine.UI.Text>().text = item.Description_en;
+                        break;
+                    }
+
+                case Item.TYPE.ImageNote:
+                    {
+                        //Debug.Log(item.Description_en);
+
+                        GameObject canvasNote = Instantiate(Grid.setup.GetGameObjectPrefab("CanvasNoteImage"));
+                        canvasNote.GetComponentsInChildren<UnityEngine.UI.Image>()[1].sprite = Grid.setup.GetSprite(item.Description_en);
+                        break;
+                    }
+
+                case Item.TYPE.KeyItem:
+                    {
+                        //Debug.Log(item.Description_en);
+                        GameObject canvasKeyItem = Instantiate(Grid.setup.GetGameObjectPrefab("CanvasInfoDialog"));
+                        canvasKeyItem.GetComponentInChildren<UnityEngine.UI.Text>().text = item.Description_en;
+                        break;
+                    }
             }
         }
     }

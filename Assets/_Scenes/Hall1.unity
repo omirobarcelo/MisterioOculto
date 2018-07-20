@@ -701,7 +701,7 @@ Prefab:
     - target: {fileID: 114593810675181920, guid: 9fe29c95e13e04980b540e5cadb03ba0,
         type: 2}
       propertyPath: scene
-      value: "\x10Kitchen1"
+      value: Kitchen1
       objectReference: {fileID: 0}
     - target: {fileID: 114593810675181920, guid: 9fe29c95e13e04980b540e5cadb03ba0,
         type: 2}

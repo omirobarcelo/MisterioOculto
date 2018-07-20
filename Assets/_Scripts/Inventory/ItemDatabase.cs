@@ -55,7 +55,7 @@ namespace Shoguneko
 
     public class Item
     {
-        public enum TYPE { Note, KeyItem };
+        public enum TYPE { Note, ImageNote, KeyItem };
 
         public int ID { get; set; }
         public string Name_en { get; set; }

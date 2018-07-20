@@ -118,6 +118,11 @@ namespace Shoguneko
             player.CanOpenInventory = true;
         }
 
+        public bool PlayerInControl()
+        {
+            return player.CanMove && player.CanInteract && player.CanOpenInventory;
+        }
+
         /// <summary>
         /// Gets the scene spawn location.
         /// </summary>
