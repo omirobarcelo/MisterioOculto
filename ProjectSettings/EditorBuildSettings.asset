@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/CutsceneCave.unity
     guid: cac7a545458a3406dbf850d45133c1d9
+  - enabled: 1
+    path: Assets/_Scenes/CutsceneSend.unity
+    guid: 80658027c1cc1413fa62377f771cabd3
   m_configObjects: {}

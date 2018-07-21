@@ -729,6 +729,8 @@ MonoBehaviour:
     BGMusic: {fileID: 8300000, guid: 9f1ce3ae7607a47f5ad5cf68bdaade98, type: 3}
   - Name: Outside3
     BGMusic: {fileID: 8300000, guid: 9f1ce3ae7607a47f5ad5cf68bdaade98, type: 3}
+  - Name: PuzzleFusebox
+    BGMusic: {fileID: 0}
   - Name: Outside4
     BGMusic: {fileID: 8300000, guid: 9f1ce3ae7607a47f5ad5cf68bdaade98, type: 3}
   - Name: Cutscene5
@@ -751,6 +753,8 @@ MonoBehaviour:
     BGMusic: {fileID: 8300000, guid: 917155e5b0a77e34faaab28c2d70b251, type: 3}
   - Name: CutsceneCave
     BGMusic: {fileID: 8300000, guid: 917155e5b0a77e34faaab28c2d70b251, type: 3}
+  - Name: CutsceneSend
+    BGMusic: {fileID: 8300000, guid: 0e6f4ae9d801e69418a5ccb46133e531, type: 3}
 --- !u!114 &516974547
 MonoBehaviour:
   m_ObjectHideFlags: 0

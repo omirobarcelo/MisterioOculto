@@ -32,26 +32,31 @@ namespace Shoguneko
         {
             foreach (var operation in Operations)
             {
-                switch (operation.operation)
-                {
-                    case Operation.Interacted:
-                        Grid.recorder.Interacted(operation.npc);
-                        break;
-                    case Operation.Agreed:
-                        Grid.recorder.Agreed(operation.npc);
-                        break;
-                    case Operation.Disagreed:
-                        Grid.recorder.Disagreed(operation.npc);
-                        break;
-                    case Operation.Joined:
-                        Grid.recorder.Joined(operation.npc);
-                        break;
-                    case Operation.Sent:
-                        Grid.recorder.Sent(operation.npc);
-                        break;
-                    default:
-                        break;
-                }
+                Increment(operation);
+            }
+        }
+
+        public void Increment(NPCRecordOperation operation)
+        {
+            switch (operation.operation)
+            {
+                case Operation.Interacted:
+                    Grid.recorder.Interacted(operation.npc);
+                    break;
+                case Operation.Agreed:
+                    Grid.recorder.Agreed(operation.npc);
+                    break;
+                case Operation.Disagreed:
+                    Grid.recorder.Disagreed(operation.npc);
+                    break;
+                case Operation.Joined:
+                    Grid.recorder.Joined(operation.npc);
+                    break;
+                case Operation.Sent:
+                    Grid.recorder.Sent(operation.npc);
+                    break;
+                default:
+                    break;
             }
         }
     }

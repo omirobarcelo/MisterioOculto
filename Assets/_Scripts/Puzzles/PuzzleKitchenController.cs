@@ -31,7 +31,7 @@ namespace Shoguneko
             {
                 PlayerPrefs.DeleteKey("kitchen_mid");
                 PlayerPrefs.SetString("kitchen_2", "true");
-                Grid.helper.ChangeScene("Cave1", "kitchen_cave_01");
+                Grid.helper.ChangeScene("CutsceneSend");
             }
         }
     }
