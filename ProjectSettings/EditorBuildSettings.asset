@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Cave1.unity
     guid: 2142343a0d81e42b298f675f227d5293
+  - enabled: 1
+    path: Assets/_Scenes/CutsceneCave.unity
+    guid: cac7a545458a3406dbf850d45133c1d9
   m_configObjects: {}

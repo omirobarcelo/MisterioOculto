@@ -1,0 +1,3 @@
+normal=Hey, I see three locks here.
+normal=Maybe we can find the keys around.
+normal=Let's check the other rooms!

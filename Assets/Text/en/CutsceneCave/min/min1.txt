@@ -1,0 +1,2 @@
+normal=Look at this! Look how well crafted this entrance is.
+normal=I wonder which technique was used.

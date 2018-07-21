@@ -4,10 +4,8 @@ using UnityEngine;
 
 namespace Shoguneko
 {
-    public class TriggeredSceneChange : MonoBehaviour
+    public class TriggeredSceneChange : ConditionalSceneChange
     {
-        public string scene;
-        public bool DeactivateAfterTrigger;
 
         // Use this for initialization
         void Start()
@@ -26,11 +24,7 @@ namespace Shoguneko
             // If it's the player
             if (col.gameObject.CompareTag("Player"))
             {
-                if (DeactivateAfterTrigger)
-                {
-                    gameObject.SetActive(false);
-                }
-                Grid.helper.ChangeScene(scene);
+                base.ChangeScene();
             }
         }
     }

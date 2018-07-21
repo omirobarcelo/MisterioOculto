@@ -4,12 +4,8 @@ using UnityEngine;
 
 namespace Shoguneko
 {
-    public class InteractableSceneChange : MonoBehaviour, IInteractable
+    public class InteractableSceneChange : ConditionalSceneChange, IInteractable
     {
-        public string scene;
-        [Tooltip("The ID of the location to spawn in the next scene.")]
-        public string exitID;
-
         [Tooltip("If true, we require an item to activate the scene change.")]
         public bool RequiresItem;
         [Tooltip("The item ID of the necessary object to go activate the scene change.")]
@@ -37,7 +33,7 @@ namespace Shoguneko
         {
             if (RequiresItem)
             {
-                // If the player possesses the required item
+                // If the player doesn't possess the required item
                 if (!Grid.inventory.CheckIfItemInInventory(itemID))
                 {
                     GameObject canvasInfo = Instantiate(Grid.setup.GetGameObjectPrefab("CanvasInfoDialog"));
@@ -52,8 +48,8 @@ namespace Shoguneko
             {
                 Grid.inventory.RemoveItem(itemID);
             }
-            //Grid.helper.ChangeScene(scene, exitID);
-            Debug.Log("Scene change!");
+
+            base.ChangeScene();
         }
     }
 }

@@ -1,0 +1,2 @@
+upset=Shut up! I'll be fine.
+normal=Speaking of the devil, here is the master key!

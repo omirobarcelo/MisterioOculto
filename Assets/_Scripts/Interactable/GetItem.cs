@@ -10,7 +10,10 @@ namespace Shoguneko
         public UnityEvent interacted;
 
         public bool DisableAfterInteraction;
-        private bool disabled = false;
+
+        public bool ChangeSceneAfterInteraction;
+        public string scene;
+        public string exitID;
 
         public int itemID;
         public int obtainedAmount;
@@ -22,6 +25,8 @@ namespace Shoguneko
         private ActionKeyDialog akd;
         private readonly string AMOUNT = "<amount>";
         private readonly string NAME = "<name>";
+
+        private bool itemObtained;
 
         private void Awake()
         {
@@ -40,9 +45,13 @@ namespace Shoguneko
             // Necessary because akd.CreateDialogue() starts a coroutine and
             // we need to wait until it ends completely because deactivating 
             // the object, or else the player gets frozen
-            if (disabled && Grid.setup.PlayerInControl())
+            if (itemObtained && DisableAfterInteraction && Grid.setup.PlayerInControl())
             {
                 gameObject.SetActive(false);
+            }
+            if (itemObtained && ChangeSceneAfterInteraction && Grid.setup.PlayerInControl())
+            {
+                Grid.helper.ChangeScene(scene, exitID);
             }
 
         }
@@ -52,11 +61,8 @@ namespace Shoguneko
             if (akd.DialoguePlaying())
             {
                 akd.CreateDialogue();
-                // There should be only one line of dialogue, so we can disable it here
-                if (DisableAfterInteraction)
-                {
-                    disabled = true;
-                }
+                // There should be only one line of dialogue, so we can make it true here
+                itemObtained = true;
             }
             else
             {

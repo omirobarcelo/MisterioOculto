@@ -1,0 +1,2 @@
+normal=Okay, it's a door with too much stuff.
+normal=But it's underground, I doubt this is an exit.
