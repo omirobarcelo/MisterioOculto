@@ -43,16 +43,19 @@ namespace Shoguneko
             {
                 foreach (var cond in Conditions)
                 {
+                    //Debug.Log(PlayerPrefs.GetString(cond.key));
                     if (!string.IsNullOrEmpty(PlayerPrefs.GetString(cond.key, null)))
                     {
+                        //Debug.Log("1 : " + cond.scene);
                         // If scene is null or empty, means that we don't want to activate
                         // a scene change with this condition
                         if (string.IsNullOrEmpty(cond.scene))
                         {
                             return;
                         }
+                        //Debug.Log("2 : " + cond.scene);
                         Grid.helper.ChangeScene(cond.scene, cond.exitID);
-                        break;
+                        return;
                     }
                 }
             }

@@ -5711,6 +5711,16 @@ Prefab:
       propertyPath: itemID
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114247399454122488, guid: 5ef799fdab2df44acaa2ceba08d1b217,
+        type: 2}
+      propertyPath: ChangeSceneAfterInteraction
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114247399454122488, guid: 5ef799fdab2df44acaa2ceba08d1b217,
+        type: 2}
+      propertyPath: scene
+      value: CutsceneKitchen
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ef799fdab2df44acaa2ceba08d1b217, type: 2}
   m_IsPrefabAsset: 0

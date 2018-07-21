@@ -1,0 +1,2 @@
+normal=Yes. (3,4) and (2,3).
+normal=The arrow shows where you start to count.
