@@ -19192,8 +19192,19 @@ Prefab:
       propertyPath: RemoveItemAfterUse
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 61784451627739370, guid: 6a0c481c2a1b94598bea2688e838510f,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 61784451627739370, guid: 6a0c481c2a1b94598bea2688e838510f,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114205264655998082, guid: 6a0c481c2a1b94598bea2688e838510f, type: 2}
+    - {fileID: 61013630382374396, guid: 6a0c481c2a1b94598bea2688e838510f, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 6a0c481c2a1b94598bea2688e838510f, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1033969648 stripped
@@ -19201,24 +19212,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4817606577777752, guid: 6a0c481c2a1b94598bea2688e838510f,
     type: 2}
   m_PrefabInternal: {fileID: 1033969647}
---- !u!1 &1033969649 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1937627675304558, guid: 6a0c481c2a1b94598bea2688e838510f,
-    type: 2}
-  m_PrefabInternal: {fileID: 1033969647}
---- !u!114 &1033969650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1033969649}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe6e846f8d409404eb88e7150b012609, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scene: Hall1
-  exitID: outside_hall_01
 --- !u!1 &1212439328
 GameObject:
   m_ObjectHideFlags: 0

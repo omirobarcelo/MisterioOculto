@@ -652,6 +652,11 @@ Prefab:
       propertyPath: Conditions.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: Conditions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4611770416407844, guid: 9fe29c95e13e04980b540e5cadb03ba0, type: 2}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -726,6 +731,51 @@ Prefab:
     - target: {fileID: 114593810675181920, guid: 9fe29c95e13e04980b540e5cadb03ba0,
         type: 2}
       propertyPath: Conditions.Array.data[0].exitID
+      value: hall_kitchen_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: scene
+      value: Kitchen1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: exitID
+      value: hall_kitchen_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: Conditional
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: Conditions.Array.data[0].key
+      value: kitchen_mid
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: Conditions.Array.data[0].scene
+      value: KitchenMid
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: Conditions.Array.data[0].exitID
+      value: hall_kitchen_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: Conditions.Array.data[1].key
+      value: kitchen_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: Conditions.Array.data[1].scene
+      value: Kitchen2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: Conditions.Array.data[1].exitID
       value: hall_kitchen_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1289,6 +1339,16 @@ Prefab:
       value: 1Floor1
       objectReference: {fileID: 0}
     - target: {fileID: 114593810675181920, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: exitID
+      value: hall_1f_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: scene
+      value: 1Floor1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
         type: 2}
       propertyPath: exitID
       value: hall_1f_01
@@ -2720,6 +2780,16 @@ Prefab:
       value: 1Floor1
       objectReference: {fileID: 0}
     - target: {fileID: 114593810675181920, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: exitID
+      value: hall_1f_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: scene
+      value: 1Floor1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
         type: 2}
       propertyPath: exitID
       value: hall_1f_02

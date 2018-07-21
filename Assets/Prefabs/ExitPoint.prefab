@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4611770416407844}
   - component: {fileID: 61114302258639986}
-  - component: {fileID: 114593810675181920}
+  - component: {fileID: 114057778020250184}
   m_Layer: 0
   m_Name: ExitPoint
   m_TagString: ExitPoint
@@ -66,7 +66,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &114593810675181920
+--- !u!114 &114057778020250184
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1384860448764362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe6e846f8d409404eb88e7150b012609, type: 3}
+  m_Script: {fileID: 11500000, guid: 172f67a2c5fb9412996154bf69d82d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scene: 

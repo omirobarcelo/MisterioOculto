@@ -6108,14 +6108,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5037e698c1e604548878b2e0acb05da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyID: 040000000500000006000000
-  RemoveItemAfterUse: 0
   scene: CutsceneEnd
   exitID: 
-  TriggerSceneIfLocked: 0
-  LockedScene: 
   Conditional: 0
   Conditions: []
+  keyID: 040000000500000006000000
+  RemoveItemAfterUse: 0
+  TriggerSceneIfLocked: 0
+  LockedScene: 
 --- !u!1001 &605820909
 Prefab:
   m_ObjectHideFlags: 0
@@ -6256,6 +6256,16 @@ Prefab:
         type: 2}
       propertyPath: m_Size.x
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: scene
+      value: Kitchen2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: exitID
+      value: kitchen_cave_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fe29c95e13e04980b540e5cadb03ba0, type: 2}

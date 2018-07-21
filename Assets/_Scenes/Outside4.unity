@@ -19122,11 +19122,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1033969649}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe6e846f8d409404eb88e7150b012609, type: 3}
+  m_Script: {fileID: 11500000, guid: 172f67a2c5fb9412996154bf69d82d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Cutscene5
   exitID: 
+  Conditional: 0
+  Conditions: []
 --- !u!1 &1183612541
 GameObject:
   m_ObjectHideFlags: 0

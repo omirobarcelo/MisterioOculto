@@ -203,6 +203,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: Cave1
   exitID: kitchen_cave_01
+  Conditional: 0
+  Conditions: []
   RequiresItem: 0
   itemID: 0
   message: 
@@ -831,6 +833,16 @@ Prefab:
     - target: {fileID: 114593810675181920, guid: 9fe29c95e13e04980b540e5cadb03ba0,
         type: 2}
       propertyPath: Conditions.Array.data[0].exitID
+      value: hall_kitchen_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: scene
+      value: Hall1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: exitID
       value: hall_kitchen_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
