@@ -74,4 +74,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/CutsceneJoin.unity
     guid: 51b1515bb027949378b669205c575a09
+  - enabled: 1
+    path: Assets/_Scenes/Room2_1.unity
+    guid: f48b9b11e55e644458310695d3eb1d68
+  - enabled: 1
+    path: Assets/_Scenes/CutsceneRoom2.unity
+    guid: 64e4922b27e1b456e8e8856d691db914
+  - enabled: 1
+    path: Assets/_Scenes/Room2_2.unity
+    guid: b1ddc55a282684ed49645e7caf3bb651
   m_configObjects: {}
