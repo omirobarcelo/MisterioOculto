@@ -92,4 +92,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/DanceRoom2.unity
     guid: 8ffc8d4eb6e484175bc8dc6f2c5fb822
+  - enabled: 1
+    path: Assets/_Scenes/Room3_1.unity
+    guid: 5c041377c66ea4ab48461a028354bbf7
+  - enabled: 1
+    path: Assets/_Scenes/CutsceneRoom3.unity
+    guid: 68d07c0157bd441e39ae0640c8b71122
+  - enabled: 1
+    path: Assets/_Scenes/Room3_2.unity
+    guid: 053eead0a49ac4fc4af196ca91606e08
   m_configObjects: {}

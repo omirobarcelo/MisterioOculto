@@ -131,6 +131,17 @@
     "slug": "note"
   },
 
+  {
+    "id": 12,
+    "name_en": "Clock key and clue",
+    "type": "Note",
+    "description_en": "Placeholder",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "FlipPage",
+    "slug": "note"
+  },
+
 	{
 		"id": 999,
 		"name_en": "Note",
