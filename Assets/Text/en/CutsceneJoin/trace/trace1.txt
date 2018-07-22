@@ -1,0 +1,2 @@
+normal=I'm the best choice.
+normal=I can determine the value of anything.

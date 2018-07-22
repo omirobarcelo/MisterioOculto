@@ -1,0 +1,2 @@
+normal=Don't bother with the others.
+normal=I'm definitely the best option.

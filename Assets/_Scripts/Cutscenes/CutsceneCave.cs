@@ -43,6 +43,7 @@ namespace Shoguneko
                     {
                         Debug.Log("Finished");
                         PlayerPrefs.SetString("cave", "true");
+                        PlayerPrefs.SetString("join", "true");
                         Grid.helper.ChangeScene("Cave1", "init");
                     });
 
