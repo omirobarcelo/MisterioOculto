@@ -87,6 +87,50 @@
     "slug": "note"
   },
 
+  {
+    "id": 8,
+    "name_en": "Journal 2",
+    "type": "Note",
+    "description_en": "Placeholder",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "FlipPage",
+    "slug": "note"
+  },
+
+  {
+    "id": 9,
+    "name_en": "Journal 3",
+    "type": "Note",
+    "description_en": "Placeholder",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "FlipPage",
+    "slug": "note"
+  },
+
+  {
+    "id": 10,
+    "name_en": "Journal 4",
+    "type": "Note",
+    "description_en": "Placeholder",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "FlipPage",
+    "slug": "note"
+  },
+
+  {
+    "id": 11,
+    "name_en": "Piano key and clue",
+    "type": "Note",
+    "description_en": "Placeholder",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "FlipPage",
+    "slug": "note"
+  },
+
 	{
 		"id": 999,
 		"name_en": "Note",
