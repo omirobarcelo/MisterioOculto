@@ -476,7 +476,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4900166039075136, guid: e214c72618b1441e0a858b8f3f6c59a5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 6
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 95917210112863456, guid: e214c72618b1441e0a858b8f3f6c59a5,
         type: 2}
@@ -513,7 +513,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4900166039075136, guid: e214c72618b1441e0a858b8f3f6c59a5, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: -0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e214c72618b1441e0a858b8f3f6c59a5, type: 2}
@@ -532,11 +532,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 4.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.5
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
       propertyPath: m_LocalPosition.z
@@ -564,7 +564,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1650790476033700, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
       propertyPath: m_Name
-      value: SP_Kitchen_Cave_01
+      value: SP_1F_Room2_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
@@ -588,11 +588,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4611770416407844, guid: 9fe29c95e13e04980b540e5cadb03ba0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -11
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4611770416407844, guid: 9fe29c95e13e04980b540e5cadb03ba0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -5.5
       objectReference: {fileID: 0}
     - target: {fileID: 4611770416407844, guid: 9fe29c95e13e04980b540e5cadb03ba0, type: 2}
       propertyPath: m_LocalPosition.z
@@ -620,7 +620,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1384860448764362, guid: 9fe29c95e13e04980b540e5cadb03ba0, type: 2}
       propertyPath: m_Name
-      value: EP_Hall_Kitchen
+      value: EP_1F_Room2
       objectReference: {fileID: 0}
     - target: {fileID: 61114302258639986, guid: 9fe29c95e13e04980b540e5cadb03ba0,
         type: 2}
@@ -630,7 +630,7 @@ Prefab:
     - target: {fileID: 61114302258639986, guid: 9fe29c95e13e04980b540e5cadb03ba0,
         type: 2}
       propertyPath: m_Size.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114593810675181920, guid: 9fe29c95e13e04980b540e5cadb03ba0,
         type: 2}
@@ -665,12 +665,17 @@ Prefab:
     - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
         type: 2}
       propertyPath: scene
-      value: Hall1
+      value: 1Floor1
       objectReference: {fileID: 0}
     - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
         type: 2}
       propertyPath: exitID
-      value: hall_kitchen_01
+      value: 1f_room2_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 61114302258639986, guid: 9fe29c95e13e04980b540e5cadb03ba0,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fe29c95e13e04980b540e5cadb03ba0, type: 2}
@@ -893,7 +898,7 @@ Prefab:
     - target: {fileID: 114094696133272762, guid: e214c72618b1441e0a858b8f3f6c59a5,
         type: 2}
       propertyPath: InitialFacing
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114094696133272762, guid: e214c72618b1441e0a858b8f3f6c59a5,
         type: 2}
@@ -904,11 +909,11 @@ Prefab:
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300018, guid: 13441de42a1754faa865a85f87e1a32e,
+      objectReference: {fileID: 21300000, guid: 13441de42a1754faa865a85f87e1a32e,
         type: 3}
     - target: {fileID: 4900166039075136, guid: e214c72618b1441e0a858b8f3f6c59a5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.5
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 1752452081557562, guid: e214c72618b1441e0a858b8f3f6c59a5, type: 2}
       propertyPath: m_Layer
@@ -926,7 +931,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4900166039075136, guid: e214c72618b1441e0a858b8f3f6c59a5, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1572760727492270, guid: e214c72618b1441e0a858b8f3f6c59a5, type: 2}
       propertyPath: m_IsActive
@@ -1185,11 +1190,11 @@ Prefab:
         type: 3}
     - target: {fileID: 4900166039075136, guid: e214c72618b1441e0a858b8f3f6c59a5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4900166039075136, guid: e214c72618b1441e0a858b8f3f6c59a5, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -5
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 114805906999440546, guid: e214c72618b1441e0a858b8f3f6c59a5,
         type: 2}
@@ -3157,62 +3162,11 @@ Prefab:
     - target: {fileID: 114247399454122488, guid: 5ef799fdab2df44acaa2ceba08d1b217,
         type: 2}
       propertyPath: scene
-      value: CutsceneRoom1
+      value: CutsceneRoom2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ef799fdab2df44acaa2ceba08d1b217, type: 2}
   m_IsPrefabAsset: 0
---- !u!1001 &1124845796
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2146585087}
-    m_Modifications:
-    - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1650790476033700, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
-      propertyPath: m_Name
-      value: SP_Hall_Kitchen_01
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
-  m_IsPrefabAsset: 0
---- !u!4 &1124845797 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd,
-    type: 2}
-  m_PrefabInternal: {fileID: 1124845796}
 --- !u!1 &1212439328
 GameObject:
   m_ObjectHideFlags: 0
@@ -3346,11 +3300,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4262089974559520, guid: 86bb924823133411b80e134fa4f9abdd, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4964,7 +4918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2122625663
 Transform:
   m_ObjectHideFlags: 0
@@ -5010,7 +4964,6 @@ Transform:
   m_Children:
   - {fileID: 38456210}
   - {fileID: 575311775}
-  - {fileID: 1124845797}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5029,7 +4982,5 @@ MonoBehaviour:
   spawnPoints:
   - id: init
     position: {fileID: 38456210}
-  - id: kitchen_cave_01
+  - id: 1f_room2_01
     position: {fileID: 575311775}
-  - id: hall_kitchen_01
-    position: {fileID: 1124845797}
