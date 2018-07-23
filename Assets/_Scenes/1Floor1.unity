@@ -3266,7 +3266,7 @@ Prefab:
     - target: {fileID: 114057778020250184, guid: 9fe29c95e13e04980b540e5cadb03ba0,
         type: 2}
       propertyPath: exitID
-      value: hall_f1_01
+      value: hall_1f_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fe29c95e13e04980b540e5cadb03ba0, type: 2}

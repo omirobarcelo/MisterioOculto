@@ -9,7 +9,7 @@ namespace Shoguneko
 
         public void StartGame()
         {
-            Grid.helper.ChangeScene("Room3_1", "init");
+            Grid.helper.ChangeScene("RubbleRoom1", "init");
             //UnityEngine.SceneManagement.SceneManager.LoadScene("Cutscene1");
         }
 
