@@ -110,4 +110,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/RubbleRoom2.unity
     guid: 60811191760334c6ea29eaa8e61c930c
+  - enabled: 1
+    path: Assets/_Scenes/WC_1.unity
+    guid: 352f32e5d1ebc4116835ba1082423d6f
   m_configObjects: {}

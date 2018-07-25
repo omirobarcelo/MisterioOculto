@@ -142,6 +142,17 @@
     "slug": "note"
   },
 
+  {
+    "id": 13,
+    "name_en": "Cleaning utensils",
+    "type": "KeyItem",
+    "description_en": "Some utensils to clean mirrors.",
+    "stackable": false,
+    "pickupsound": "Pickup",
+    "usedsound": "",
+    "slug": "small_key"
+  },
+
 	{
 		"id": 999,
 		"name_en": "Note",
