@@ -119,4 +119,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/WC_2.unity
     guid: 5eb0cd2d6f49b48aa9a84b63c994e899
+  - enabled: 1
+    path: Assets/_Scenes/Room1_1.unity
+    guid: 55f194d59aa4e4b28bf75f2e28018d0e
+  - enabled: 1
+    path: Assets/_Scenes/PuzzleRoom1.unity
+    guid: 6a6e64ce8f389421eb96dbc57c667bf3
+  - enabled: 1
+    path: Assets/_Scenes/Room1_2.unity
+    guid: b95e3136df2f94e4aa993102878ea8e5
   m_configObjects: {}
