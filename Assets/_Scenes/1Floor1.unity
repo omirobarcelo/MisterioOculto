@@ -5208,7 +5208,7 @@ MonoBehaviour:
     position: {fileID: 1738295238}
   - id: 1f_room3_01
     position: {fileID: 1814919936}
-  - id: 1f_ec_01
+  - id: 1f_wc_01
     position: {fileID: 567604543}
   - id: hall_1f_01
     position: {fileID: 355882846}
