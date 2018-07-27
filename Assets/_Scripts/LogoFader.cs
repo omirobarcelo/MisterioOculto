@@ -27,7 +27,7 @@ namespace Shoguneko
         void Update()
         {
 //#if UNITY_EDITOR
-//            UnityEngine.SceneManagement.SceneManager.LoadScene("CutsceneEnd");
+//            UnityEngine.SceneManagement.SceneManager.LoadScene("PuzzleFusebox");
 //#endif
 
             if (playedOnce)
