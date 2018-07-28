@@ -8,6 +8,8 @@ namespace Shoguneko
 
     public class UpdateRecorder : MonoBehaviour
     {
+        readonly char SEP = ':';
+
         [System.Serializable]
         public struct NPCRecordOperation
         {
@@ -32,12 +34,40 @@ namespace Shoguneko
         {
             foreach (var operation in Operations)
             {
-                Increment(operation);
+                IncrementSpecific(operation);
             }
         }
 
-        public void Increment(NPCRecordOperation operation)
+        public void IncrementSpecific(NPCRecordOperation operation)
         {
+            switch (operation.operation)
+            {
+                case Operation.Interacted:
+                    Grid.recorder.Interacted(operation.npc);
+                    break;
+                case Operation.Agreed:
+                    Grid.recorder.Agreed(operation.npc);
+                    break;
+                case Operation.Disagreed:
+                    Grid.recorder.Disagreed(operation.npc);
+                    break;
+                case Operation.Joined:
+                    Grid.recorder.Joined(operation.npc);
+                    break;
+                case Operation.Sent:
+                    Grid.recorder.Sent(operation.npc);
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        public void IncrementSerialized(string sOperation)
+        {
+            string[] op = sOperation.Split(SEP);
+            NPCRecordOperation operation;
+            operation.npc = op[0];
+            operation.operation = (Operation)System.Enum.Parse(typeof(Operation), op[1]);
             switch (operation.operation)
             {
                 case Operation.Interacted:

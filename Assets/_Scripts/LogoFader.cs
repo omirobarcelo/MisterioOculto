@@ -26,9 +26,9 @@ namespace Shoguneko
         // Update is called once per frame
         void Update()
         {
-//#if UNITY_EDITOR
-//            UnityEngine.SceneManagement.SceneManager.LoadScene("PuzzleFusebox");
-//#endif
+#if UNITY_EDITOR
+            UnityEngine.SceneManagement.SceneManager.LoadScene("PuzzleKitchen1");
+#endif
 
             if (playedOnce)
             {
