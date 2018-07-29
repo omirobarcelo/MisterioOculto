@@ -27,7 +27,7 @@ namespace Shoguneko
         void Update()
         {
 #if UNITY_EDITOR
-            UnityEngine.SceneManagement.SceneManager.LoadScene("PuzzleKitchen1");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("PuzzleRubble1");
 #endif
 
             if (playedOnce)
