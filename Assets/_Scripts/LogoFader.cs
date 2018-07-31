@@ -26,9 +26,9 @@ namespace Shoguneko
         // Update is called once per frame
         void Update()
         {
-#if UNITY_EDITOR
-            UnityEngine.SceneManagement.SceneManager.LoadScene("PuzzleRoom1");
-#endif
+//#if UNITY_EDITOR
+//            UnityEngine.SceneManagement.SceneManager.LoadScene("PuzzleDance1");
+//#endif
 
             if (playedOnce)
             {

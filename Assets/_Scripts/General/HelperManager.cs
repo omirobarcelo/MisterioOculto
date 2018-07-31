@@ -217,6 +217,12 @@ namespace Shoguneko
             SceneManager.LoadScene(newScene);
         }
 
+        public IEnumerator<WaitForSeconds> WaitAndChangeScene(float seconds, string newScene, string exitID = null)
+        {
+            yield return new WaitForSeconds(0.5f);
+            ChangeScene(newScene, exitID);
+        }
+
         //private void SavePlayerSetup()
         //{
         //    // Save the player data.
