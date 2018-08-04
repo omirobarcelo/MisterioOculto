@@ -1,0 +1,4 @@
+normal=Well, Min and I were talking about what could we do
+normal=to commemorate our get-together after so many years,
+normal=and we remembered the abandoned mansion, this one here.
+normal=We were always too afraid to go in when we were young. 

@@ -1,0 +1,3 @@
+normal=But, but, tell us more details about her
+normal=and what you've been doing these last years.
+normal=How did you meet? How did you propose?

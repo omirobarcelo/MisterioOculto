@@ -1,0 +1,2 @@
+upset=It's a somehow uncommon way to get engaged.
+normal=Nonetheless, I'm happy for you.

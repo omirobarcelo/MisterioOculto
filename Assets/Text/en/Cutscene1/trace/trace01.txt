@@ -1,0 +1,2 @@
+normal=Yeah, I heard your fiancé's family is quite rich.
+normal=Are you getting something from it?

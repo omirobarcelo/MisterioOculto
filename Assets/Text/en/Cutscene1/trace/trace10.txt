@@ -1,0 +1,5 @@
+normal=Nothing, nothing, Golzar didn't quite get what I said.
+normal=So yeah, I go from house to house,
+normal=I check if they need any of my services,
+normal=and I get some profit. Sometimes it's easier than others.
+normal=Old people living alone are my prime clients. 

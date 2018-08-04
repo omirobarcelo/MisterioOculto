@@ -1,0 +1,2 @@
+normal=I was also worried that it could be illegal,
+normal=but I checked around a bit and I think it's okay to go in.

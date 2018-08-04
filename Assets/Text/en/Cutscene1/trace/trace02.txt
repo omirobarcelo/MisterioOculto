@@ -1,0 +1,2 @@
+normal=I still can't believe you've become a priest.
+normal=Put a good word for me up there, will ya?

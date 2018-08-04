@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=My 'business' is going well.

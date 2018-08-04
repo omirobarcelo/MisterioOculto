@@ -1,0 +1,7 @@
+normal=The usual. I don't change much.
+normal=I've kept working in centers that aid the less fortunate.
+normal=I hope that in the future I can open a center
+normal=for young people with problems. There are so many of them
+normal=that don't have anywhere to go, and fall victim
+normal=or start committing crimes. I want that they have a place to go.
+normal=I saw how much a center like this helped my brother in his dark times.

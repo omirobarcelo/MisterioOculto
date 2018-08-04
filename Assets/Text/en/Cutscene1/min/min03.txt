@@ -1,0 +1,3 @@
+normal=Wow! So you met so far away?
+normal=And then you just saw each other again here?
+normal=Sounds almost unbelievable.

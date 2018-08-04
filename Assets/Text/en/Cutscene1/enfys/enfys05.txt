@@ -1,0 +1,2 @@
+normal=All that sounds a bit too much for me.
+normal=I haven't traveled much and I don't think I'll start anytime soon.

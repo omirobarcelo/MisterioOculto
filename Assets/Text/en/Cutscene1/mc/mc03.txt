@@ -1,0 +1,3 @@
+normal=Well, my fiancé asked me if I wanted to do it
+normal=and I thought 'Why not try?'.
+normal=I think I haven't mentioned that my fiancé owns a hair salon.

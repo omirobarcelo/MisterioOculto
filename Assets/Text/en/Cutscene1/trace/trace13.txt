@@ -1,0 +1,3 @@
+normal=Hell no! I have to experience all the fish in the sea.
+normal=And thanks to my 'traveling salesman' tactics,
+normal=I can get that they pay for me.

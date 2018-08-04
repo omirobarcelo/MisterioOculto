@@ -1,0 +1,2 @@
+normal=Sometimes you should consider other people too,
+normal=and not only your own benefit.

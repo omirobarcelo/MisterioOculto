@@ -1,0 +1,2 @@
+normal=Nah, I'll settle with TV.
+normal=Anyway, explain again, why were we doing here?

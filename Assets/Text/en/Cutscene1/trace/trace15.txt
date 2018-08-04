@@ -1,0 +1,4 @@
+normal=Come on, you know I like to experience new things!
+normal=Min only wants to see inside, but who knows,
+normal=maybe I found something of value.
+normal=It looks like the mansion belonged to a wealthy family. 

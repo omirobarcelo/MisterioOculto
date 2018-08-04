@@ -1,0 +1,3 @@
+normal=It's actually not that sudden.
+normal=We live together and we've dated for over 2 years.
+normal=The thing is, we haven't properly met since... how long ago?

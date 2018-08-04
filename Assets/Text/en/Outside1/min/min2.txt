@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I have to remember everything for my diary.

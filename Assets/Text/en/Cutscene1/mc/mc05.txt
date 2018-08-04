@@ -1,0 +1,2 @@
+normal=That sounds like a great goal.
+normal=Not many people would consider doing all that just for the fun of it.

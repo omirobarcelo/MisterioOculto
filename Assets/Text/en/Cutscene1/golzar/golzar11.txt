@@ -1,0 +1,7 @@
+normal=Yeah, sure, whatever.
+normal=I don't even have that much to say.
+normal=I still work at the bank. Still married.
+normal=But my spouse complains too much about my smoking and drinking.
+upset=What's the problem if I go for a few drinks after work?
+normal=Ah, I just want a better life. You know the package,
+normal=bigger house, better car, more attractive partner. 

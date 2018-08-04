@@ -74,7 +74,7 @@ namespace Shoguneko
                     if (correct)
                     {
                         //Debug.Log("done");
-                        StartCoroutine(Grid.helper.WaitAndChangeScene(1f, "DanceRoom2", "init"));
+                        StartCoroutine(Grid.helper.WaitAndChangeScene(1.5f, "DanceRoom2", "init"));
                         PlayerPrefs.SetString("dance", "true");
                         //Grid.helper.ChangeScene("DanceRoom2", "init");
                     }

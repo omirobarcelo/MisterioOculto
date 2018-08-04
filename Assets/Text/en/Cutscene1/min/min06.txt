@@ -1,0 +1,4 @@
+normal=No, I just want to share what I experienced.
+normal=Even though I try not to use much money while traveling,
+normal=there are plenty of people that don't even have that
+normal=or for other reasons cannot see the rest of the world. 

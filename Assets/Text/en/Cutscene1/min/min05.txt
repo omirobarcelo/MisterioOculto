@@ -1,0 +1,9 @@
+normal=I started art school, but I didn't finish.
+normal=I wasn't really learning what I wanted.
+normal=So I decided to start traveling as a bag packer.
+normal=I'm going from one place to another.
+normal=First I started close, but I saved money little by little,
+normal=so now I go farther away.
+normal=I want to have new experiences, see different cultures.
+normal=I write, draw, or add as a photography all these new experiences
+normal=in my little art diary, and I hope I can publish it in the future.

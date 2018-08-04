@@ -1,0 +1,2 @@
+upset=Shut up! My spouse did it without telling me.
+normal=I made sure that it never happens again. 

@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=After this I'm going to the social center.

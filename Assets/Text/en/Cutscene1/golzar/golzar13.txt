@@ -1,0 +1,2 @@
+normal=So rare for you to do something just for the fun of it,
+normal=even if it is to make other people happy.
