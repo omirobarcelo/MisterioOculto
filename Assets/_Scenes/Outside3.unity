@@ -18853,6 +18853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 791f9fa61e6154e23afda27668f2e92f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UseParentTransform: 0
 --- !u!61 &877984286
 BoxCollider2D:
   m_ObjectHideFlags: 0

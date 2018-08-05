@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=You should check the temporal exposition in the art gallery.

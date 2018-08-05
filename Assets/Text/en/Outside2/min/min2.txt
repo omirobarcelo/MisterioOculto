@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=Traveling keeps me away for long periods of time.

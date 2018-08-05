@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=Recently there's been a lot of people
+normal=coming to the social center.

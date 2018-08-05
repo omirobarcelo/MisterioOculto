@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=The shack is down to the left.

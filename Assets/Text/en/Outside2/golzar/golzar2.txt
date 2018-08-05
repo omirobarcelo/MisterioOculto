@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I feel people at work don't respect me as much as they should.
