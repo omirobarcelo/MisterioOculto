@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=What will I do with the benefits?
+normal=Maybe I can actually pay for the museum?

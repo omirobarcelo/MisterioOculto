@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I've wanted to go in for so many years!
