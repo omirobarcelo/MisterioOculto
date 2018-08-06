@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=The others are dumb. Trust me.

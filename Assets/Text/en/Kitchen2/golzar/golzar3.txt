@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I think I should just leave without you guys.

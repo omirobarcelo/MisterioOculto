@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I don't want to be mean, but I'm sure these are coordinates.

@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=Start counting from the top left corner.

@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=But the place is interesting, I have to admit.

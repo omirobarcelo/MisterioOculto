@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=Maybe I should explore myself.

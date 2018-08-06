@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I'm sure you'll be able to solve it.

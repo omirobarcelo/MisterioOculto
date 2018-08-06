@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I don't think I can find anything of profit here.
