@@ -1,2 +1,2 @@
-normal=It's me, Trace!
-upset=My friendly reminder to always walk up to signs and read them for clues!
+normal=Do you see the hall from up here?
+normal=It's incredible!

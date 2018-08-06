@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=Art doesn't attract me too much.
+normal=Nor I'm curious about the science behind the world.

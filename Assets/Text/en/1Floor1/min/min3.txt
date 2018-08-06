@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I want to make an impact.

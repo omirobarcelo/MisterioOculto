@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=How's the spouse? Okay. Could be better.
+normal=Just sticking for the routine.

@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I don't care about any of this stuff.

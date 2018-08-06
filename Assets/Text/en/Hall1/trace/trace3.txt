@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=How do I know? I investigate about these things.
+normal=Not my favorite topic, but still interesting.

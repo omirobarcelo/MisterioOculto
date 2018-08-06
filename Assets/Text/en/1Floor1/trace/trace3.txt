@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=But people in class do not realize how smart I am.

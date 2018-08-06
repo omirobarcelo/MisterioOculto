@@ -1,1 +1,3 @@
-upset=Talking to me again?
+normal=I was considering going on a mission, but...
+normal=Traveling is not my thing.
+normal=I'll help here.

@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=But the furniture is nice.
+normal=Antiquities.

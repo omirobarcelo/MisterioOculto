@@ -1,1 +1,3 @@
-upset=Talking to me again?
+normal=Now the spouse is even taking some classes.
+normal=I don't want to learn anything more after I finished college.
+normal=But I'm happy that I have more freedom now. 

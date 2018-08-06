@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=It's interesting to understand the psyche and motivation of others.

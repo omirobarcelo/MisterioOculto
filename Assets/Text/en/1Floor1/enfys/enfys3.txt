@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I rather just use my time to help others.

@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=This house is quite normal, right?

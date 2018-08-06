@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=I don't see the appeal in the arts.
+normal=I just want to be entertained.

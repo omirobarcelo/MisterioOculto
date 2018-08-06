@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=Have I told you? Someone wanted to give me an award.
+normal=But I don't think I deserve it, so I rejected it.

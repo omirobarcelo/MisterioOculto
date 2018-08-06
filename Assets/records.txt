@@ -1,5 +1,5 @@
 npc,interacted,agreed,disagreed,joined,sent
 min,3,0,0,0,0
 enfys,3,0,0,0,0
-trace,4,0,0,0,0
-golzar,3,0,0,0,0
+trace,3,0,0,0,0
+golzar,4,0,0,0,0

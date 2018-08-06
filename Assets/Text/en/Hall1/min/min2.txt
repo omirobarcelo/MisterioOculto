@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=This could be remodeled as an art center.
+normal=For artists with no resources.
