@@ -28,7 +28,7 @@ namespace Shoguneko
         {
 #if UNITY_EDITOR
             Grid.inventory.AddItem(3, 1);
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("PuzzleDance1");
 #endif
 
             if (playedOnce)

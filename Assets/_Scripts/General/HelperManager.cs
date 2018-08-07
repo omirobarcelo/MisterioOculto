@@ -219,7 +219,7 @@ namespace Shoguneko
 
         public IEnumerator<WaitForSeconds> WaitAndChangeScene(float seconds, string newScene, string exitID = null)
         {
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(seconds);
             ChangeScene(newScene, exitID);
         }
 

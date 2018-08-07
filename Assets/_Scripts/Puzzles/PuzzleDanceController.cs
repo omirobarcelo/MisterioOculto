@@ -74,7 +74,12 @@ namespace Shoguneko
                     if (correct)
                     {
                         //Debug.Log("done");
-                        StartCoroutine(Grid.helper.WaitAndChangeScene(1.5f, "DanceRoom2", "init"));
+                        for (int i = 0; i < Solution.Length; i++)
+                        {
+                            StartCoroutine(WaitAndPlay((i+1) * 1f, keys[Solution[i]].note));
+                        }
+
+                        StartCoroutine(Grid.helper.WaitAndChangeScene((Solution.Length + 1) * 1f, "DanceRoom2", "init"));
                         PlayerPrefs.SetString("dance", "true");
                         //Grid.helper.ChangeScene("DanceRoom2", "init");
                     }
@@ -105,9 +110,10 @@ namespace Shoguneko
             playerSolution = new List<int>();
         }
 
-        IEnumerator WaitAndC(float seconds)
+        IEnumerator WaitAndPlay(float seconds, AudioClip clip)
         {
             yield return new WaitForSeconds(seconds);
+            Grid.soundManager.PlaySound(clip);
         }
     }
 }
