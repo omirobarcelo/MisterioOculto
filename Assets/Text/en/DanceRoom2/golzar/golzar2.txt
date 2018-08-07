@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=But I don't want to deal with change.

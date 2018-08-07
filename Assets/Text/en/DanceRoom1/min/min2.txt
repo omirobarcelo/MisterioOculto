@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=Play the piano!

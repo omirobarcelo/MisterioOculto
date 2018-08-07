@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=And it's in the bottom floor, so also easy to put in a truck.

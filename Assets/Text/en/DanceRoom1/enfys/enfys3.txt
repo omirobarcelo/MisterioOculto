@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I don't specially enjoy music or dancing.

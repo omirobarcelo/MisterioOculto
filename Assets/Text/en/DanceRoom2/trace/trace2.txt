@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=Worry about the important stuff.

@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I wish I had the money to buy a house like this.

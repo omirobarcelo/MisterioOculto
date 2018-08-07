@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I don't think I fit in here.

@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=Get money and be free.
