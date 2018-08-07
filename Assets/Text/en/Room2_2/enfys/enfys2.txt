@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=I don't read much poetry,
+normal=that's why I only get the first paragraph.

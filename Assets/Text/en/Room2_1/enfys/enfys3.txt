@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I hope I could build rooms like this for the troubled young.

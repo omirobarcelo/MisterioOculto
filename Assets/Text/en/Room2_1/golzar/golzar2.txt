@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=Why are we even checking here?
+normal=In these rooms there won't be an exit.

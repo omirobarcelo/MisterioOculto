@@ -223,7 +223,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 600, y: 300}
+  m_SizeDelta: {x: 700, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &71320095
 MonoBehaviour:
@@ -1211,8 +1211,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 291.5, y: -18.5}
-  m_SizeDelta: {x: 563, y: 17}
+  m_AnchoredPosition: {x: 341.5, y: -221.59421}
+  m_SizeDelta: {x: 663, y: 423.18842}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &491923197
 MonoBehaviour:
@@ -1247,7 +1247,33 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: Placeholder
+  m_Text: 'First flew the white Pelican,
+
+    eager for the reward.
+
+
+    Then came a silent Dove,
+
+    flying beyond the Pelican,
+
+    as far as he could.
+
+
+    A Raven flies in,
+
+    flying higher and in front than the Dove.
+
+
+    A Swan glides in to find a peaceful spot
+
+    next to another bird.
+
+
+    Finally, out comes a Crow,
+
+    coming quickly to a stop,
+
+    yawning and then napping.'
 --- !u!222 &491923198
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2671,8 +2697,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00000011596993}
-  m_SizeDelta: {x: 0, y: 37}
+  m_AnchoredPosition: {x: -0.000029524634, y: 0.000011751394}
+  m_SizeDelta: {x: 0, y: 443.18842}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1127746045
 MonoBehaviour:
@@ -4740,7 +4766,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -7604,7 +7630,7 @@ RectTransform:
   m_GameObject: {fileID: 1971639348}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6.7113, y: 3.8030698, z: 2.9828}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1503840888}
   m_RootOrder: 0
@@ -7612,7 +7638,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 800, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2073936771
 GameObject:

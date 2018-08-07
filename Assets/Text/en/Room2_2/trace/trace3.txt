@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=You know I'm smart!

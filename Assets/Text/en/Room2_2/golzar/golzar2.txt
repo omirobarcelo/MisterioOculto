@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=I think riddles are dumb, but the spouse insists in
+normal=asking me about them.

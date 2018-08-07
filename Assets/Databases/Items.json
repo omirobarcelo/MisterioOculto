@@ -124,7 +124,7 @@
     "id": 11,
     "name_en": "Piano key and clue",
     "type": "Note",
-    "description_en": "Placeholder",
+    "description_en": "First flew the white Pelican,\neager for the reward.\n\nThen came a silent Dove,\nflying beyond the Pelican,\nas far as he could.\n\nA Raven flies in,\nflying higher and in front than the Dove.\n\nA Swan glides in to find a peaceful spot\nnext to another bird.\n\nFinally, out comes a Crow,\ncoming quickly to a stop,\nyawning and then napping.",
     "stackable": false,
     "pickupsound": "Pickup",
     "usedsound": "FlipPage",

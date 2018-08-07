@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=But which clock is better?
+normal=This one or the one from the other room?

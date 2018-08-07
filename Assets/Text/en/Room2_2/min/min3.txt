@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I don't think I'm very good at riddles but they are so fun!

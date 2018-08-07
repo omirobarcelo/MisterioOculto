@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=I usually walk from one place to the other,
+normal=so I don't read while moving around.
