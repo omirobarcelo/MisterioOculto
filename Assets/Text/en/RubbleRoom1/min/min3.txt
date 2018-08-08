@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I still remember some of the high school lessons.

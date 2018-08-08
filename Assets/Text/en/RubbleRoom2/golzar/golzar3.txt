@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=I just lied to come here.
+normal=Out of sight, out of mind.

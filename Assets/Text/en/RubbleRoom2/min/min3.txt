@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=But I helped building them again!
+normal=It felt so empowering!

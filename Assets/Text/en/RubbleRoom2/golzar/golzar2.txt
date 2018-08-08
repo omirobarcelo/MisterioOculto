@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I wanted to say no, but that usually puts me in troble.

@@ -1,1 +1,2 @@
-upset=Talking to me again?
+upset=I lived a small earthquake.
+upset=In the village I was staying some houses went down.

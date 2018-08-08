@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=My field is psychology, but I also know some basic math.

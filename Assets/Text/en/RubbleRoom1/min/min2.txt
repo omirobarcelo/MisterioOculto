@@ -1,1 +1,3 @@
-upset=Talking to me again?
+normal=To change from base 10 to another, let's say 3
+normal=you divide the number with 3 until you cannot divide further
+normal=and then take the quotient and the remainders.

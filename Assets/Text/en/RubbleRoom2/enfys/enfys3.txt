@@ -1,1 +1,3 @@
-upset=Talking to me again?
+upset=It's so sad... I just want to help everyone.
+upset=...
+upset=But I can't. Not alone.

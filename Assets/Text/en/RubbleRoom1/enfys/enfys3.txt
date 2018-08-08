@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=I just know this because I help some of the kids
+normal=with their homework.
