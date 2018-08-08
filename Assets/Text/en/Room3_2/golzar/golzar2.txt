@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=Downstairs there's a clock with some weird symbols.

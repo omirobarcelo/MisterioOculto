@@ -135,7 +135,7 @@
     "id": 12,
     "name_en": "Clock key and clue",
     "type": "Note",
-    "description_en": "Placeholder",
+    "description_en": "First ritual\n\tOn the 1st full moon of the 4th month. 1765.\n\tPar biab a acaro. Bogira vaoresa ome. Niis, Iabes El!\n\nLast ritual\n\tOn the 4th void moon of the 6th month. 1963.\n\tTol niis adagita a uls. Par biab a uls. Iabes El saba apila paaotza.",
     "stackable": false,
     "pickupsound": "Pickup",
     "usedsound": "FlipPage",

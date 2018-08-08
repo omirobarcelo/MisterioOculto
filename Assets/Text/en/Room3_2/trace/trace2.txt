@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=That is a very important date. It's when all began.

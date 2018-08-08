@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=The other room is just like this one.

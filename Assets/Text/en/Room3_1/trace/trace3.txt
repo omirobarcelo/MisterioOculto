@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=I thought these rich people would be more original than
+normal=just copy the other room.

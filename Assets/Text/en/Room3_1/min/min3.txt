@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I'll make them myself from my drawings.
