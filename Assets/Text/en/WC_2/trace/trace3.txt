@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=The hint is very clear. How can they not get it?

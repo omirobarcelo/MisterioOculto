@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=This has been going for too long.

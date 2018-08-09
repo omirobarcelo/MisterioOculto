@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=But I'll support them.

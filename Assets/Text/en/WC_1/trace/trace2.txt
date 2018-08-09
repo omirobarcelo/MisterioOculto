@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=It's not like I was planning to... 'borrow' anything from here.

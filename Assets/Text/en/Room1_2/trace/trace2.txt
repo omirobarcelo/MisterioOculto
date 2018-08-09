@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=I've seen my share of fake old documents,
+normal=but these journals look real.

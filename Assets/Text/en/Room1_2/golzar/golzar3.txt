@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=Read one once. Never again.

@@ -1,1 +1,2 @@
-upset=Talking to me again?
+normal=I don't agree with them.
+normal=I don't know if it's even good for them.

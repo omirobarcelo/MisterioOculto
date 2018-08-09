@@ -1,1 +1,1 @@
-upset=Talking to me again?
+upset=I read one and I don't want to read anymore.

@@ -157,11 +157,11 @@ MonoBehaviour:
   - npc: enfys
     operation: 2
   - npc: golzar
-    operation: 2
+    operation: 1
   - npc: min
     operation: 1
   - npc: trace
-    operation: 1
+    operation: 2
 --- !u!1 &190301996
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,11 +686,11 @@ MonoBehaviour:
   - npc: enfys
     operation: 1
   - npc: golzar
-    operation: 1
+    operation: 2
   - npc: min
     operation: 2
   - npc: trace
-    operation: 2
+    operation: 1
 --- !u!1 &548585350
 GameObject:
   m_ObjectHideFlags: 0

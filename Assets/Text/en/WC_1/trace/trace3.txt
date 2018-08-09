@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=But damn. I should've come sooner, before other people.

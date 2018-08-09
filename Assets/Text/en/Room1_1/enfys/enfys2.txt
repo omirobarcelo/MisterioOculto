@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I'm so grateful with the path I chose.

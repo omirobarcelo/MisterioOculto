@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I'm able to feel respected and help others.

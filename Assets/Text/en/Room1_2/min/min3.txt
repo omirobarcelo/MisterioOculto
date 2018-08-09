@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I'm a bit scared, but a part of me wants them to be true.

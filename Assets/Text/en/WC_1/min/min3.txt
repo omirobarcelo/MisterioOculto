@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=Whoever designed this bathroom had a lot or artistic sense.

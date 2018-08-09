@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=By the way, this painting is gorgeous.
