@@ -1,1 +1,2 @@
-normal=I'm fine. Let's look for a way to get out.
+normal=That's...
+normal=creepy.

@@ -1,1 +1,2 @@
-upset=See? I told ya we should've left.
+upset=So no exit, uh?
+upset=We've just been wasting time!

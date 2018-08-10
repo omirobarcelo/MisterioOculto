@@ -1,2 +1,0 @@
-normal=Well, not it's not like we can leave through the entrance.
-normal=So exploring it is!

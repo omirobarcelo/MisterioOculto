@@ -1,1 +1,2 @@
-upset=Don't die here, you still owe me a coffee!
+normal=There are interesting things here.
+normal=Looks like a ritual place.

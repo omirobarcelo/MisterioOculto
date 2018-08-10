@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=I think it's better to leave and keep looking for an exit.

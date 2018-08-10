@@ -1,3 +1,0 @@
-normal=I would like to keep exploring.
-normal=Are you okay?
-normal= If not let's just call someone and wait.

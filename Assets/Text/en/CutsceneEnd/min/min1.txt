@@ -1,1 +1,2 @@
-upset=Look out!
+normal=I don't think it's real.
+normal=It's white like paper.
