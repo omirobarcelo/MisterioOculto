@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=Rich people don't know what to do with their money.

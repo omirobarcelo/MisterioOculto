@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=Hurry and get those keys!

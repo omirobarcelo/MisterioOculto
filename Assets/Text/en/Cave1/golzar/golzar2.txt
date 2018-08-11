@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=A door that needs three keys? That's stupid.

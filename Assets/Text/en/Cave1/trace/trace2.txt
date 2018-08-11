@@ -1,1 +1,1 @@
-upset=Talking to me again?
+normal=But I'm sure they hided the good stuff behind the door.
