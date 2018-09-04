@@ -26,10 +26,10 @@ namespace Shoguneko
         // Update is called once per frame
         void Update()
         {
-#if UNITY_EDITOR
-            Grid.inventory.AddItem(3, 1);
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
-#endif
+//#if UNITY_EDITOR
+//            Grid.inventory.AddItem(3, 1);
+//            UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
+//#endif
 
             if (playedOnce)
             {

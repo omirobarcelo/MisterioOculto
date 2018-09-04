@@ -69,6 +69,7 @@ namespace Shoguneko
             if (!akd.DialoguePlaying())
             {
                 Grid.recorder.Interacted(DialogueDirectory);
+                Grid.recorder.AddInteraction(DialogueDirectory);
             }
             // Create dialog
             akd.CreateDialogue();

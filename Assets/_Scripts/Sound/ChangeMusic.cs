@@ -173,7 +173,7 @@ namespace Shoguneko
     [System.Serializable]
     public class SceneNameBGMusic
     {
-        [ReadOnly]
+        [ReadOnlyAttribute]
         public string Name;
         public AudioClip BGMusic;
     }

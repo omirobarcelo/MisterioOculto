@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Shoguneko
 {
@@ -33,7 +34,34 @@ namespace Shoguneko
             }
         }
 
+        public class GeneralRecord
+        {
+            public List<int> interactions;
+
+            public GeneralRecord()
+            {
+                interactions = new List<int>();
+            }
+
+            public string ToListString()
+            {
+                string[] record = new string[interactions.Count];
+                for (int i = 0; i < interactions.Count; i++)
+                {
+                    record[i] = interactions[i].ToString();
+                }
+                return string.Join(",", record);
+            }
+        }
+
         Dictionary<string, Record> dicRecords;
+        GeneralRecord generalRecord;
+
+        private void Awake()
+        {
+            generalRecord = new GeneralRecord();
+            //Debug.Log("Awake done");
+        }
 
         // Use this for initialization
         void Start()
@@ -43,6 +71,9 @@ namespace Shoguneko
             dicRecords.Add("enfys", new Record());
             dicRecords.Add("trace", new Record());
             dicRecords.Add("golzar", new Record());
+
+            //generalRecord = new GeneralRecord();
+            //Debug.Log("Start done");
         }
 
         // Update is called once per frame
@@ -76,6 +107,49 @@ namespace Shoguneko
             dicRecords[npc].TimesSent++;
         }
 
+
+        private void OnEnable()
+        {
+            SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+
+        void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+        {
+            AddInteraction(); // Add 0 to symbolize a new scene
+        }
+
+        private void OnDisable()
+        {
+            SceneManager.sceneLoaded -= OnSceneLoaded;
+        }
+
+        public void AddInteraction(string npc = "")
+        {
+            int npcCode = -1;
+            switch (npc)
+            {
+                case "min":
+                    npcCode = 1;
+                    break;
+                case "enfys":
+                    npcCode = 2;
+                    break;
+                case "trace":
+                    npcCode = 3;
+                    break;
+                case "golzar":
+                    npcCode = 4;
+                    break;
+                case "": // Scene change
+                    npcCode = 0;
+                    break;
+            }
+
+            //Debug.Log(generalRecord);
+            generalRecord.interactions.Add(npcCode);
+        }
+
+
         private void OnApplicationQuit()
         {
             string path = Application.dataPath + "/records.txt";
@@ -88,6 +162,8 @@ namespace Shoguneko
                 {
                     writer.WriteLine(kvp.Key + "," + kvp.Value.ToCSVString());
                 }
+
+                writer.WriteLine("\n" + generalRecord.ToListString());
             }
         }
     }
