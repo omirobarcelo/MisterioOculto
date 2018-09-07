@@ -1,1 +1,5 @@
+normal=I think the first paragraph means that the Pelican
+normal=is the first white key.
+normal=The Crow is just the first black key. Easy.
+normal=The Dove is the last possible white key.
 normal=The Raven must be a black key infront of the Dove. I'm sure!

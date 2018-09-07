@@ -3162,7 +3162,7 @@ Prefab:
     - target: {fileID: 114247399454122488, guid: 5ef799fdab2df44acaa2ceba08d1b217,
         type: 2}
       propertyPath: ChangeSceneAfterInteraction
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114247399454122488, guid: 5ef799fdab2df44acaa2ceba08d1b217,
         type: 2}

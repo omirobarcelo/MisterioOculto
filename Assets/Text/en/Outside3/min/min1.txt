@@ -1,2 +1,5 @@
 normal=There were a couple of clues in the fusebox.
 normal='B has to be half of D'. 
+normal=My clue says 'A+B must not exceed C'. 
+normal='D must not exceed A'.
+normal=The clue states 'C is not the lowest'.
