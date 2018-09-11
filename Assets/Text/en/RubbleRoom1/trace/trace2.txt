@@ -1,3 +1,4 @@
 normal=Our decimal system is in base 10.
 normal=It starts from 1, then 2, then 3, yatta, yatta, yatta
 normal=and after 9 there's 10.
+normal=So a base 4 system would go 1, 2, 3, 10, 11...

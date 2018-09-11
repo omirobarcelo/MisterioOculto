@@ -1,1 +1,2 @@
-normal=But the first ritual is when the house was built.
+normal=The first ritual, in 1765, is when the house was built.
+normal=That's critical.

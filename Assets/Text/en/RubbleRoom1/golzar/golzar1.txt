@@ -1,1 +1,1 @@
-normal=No, first is always more important.
+normal=The first ritual in 1765 must be more important.

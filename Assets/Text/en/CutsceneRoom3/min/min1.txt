@@ -1,1 +1,1 @@
-normal=The last ritual is when this house was abandoned.
+normal=The last ritual, in 1963, is when this house was abandoned.

@@ -1,2 +1,2 @@
 normal=These are dates for when to perform a ritual.
-normal=I think the last ritual is more important.
+normal=I think the last ritual, in 1963, is more important.

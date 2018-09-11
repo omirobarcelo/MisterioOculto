@@ -1,1 +1,1 @@
-normal=But you solve the rest, right?
+normal=You solve the rest, right?

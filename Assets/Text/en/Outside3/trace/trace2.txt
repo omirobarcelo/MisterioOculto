@@ -1,1 +1,1 @@
-normal=The shack is down to the left.
+normal=I'm pretty sure you put the 125 fuse in B.

@@ -1,1 +1,2 @@
-normal=Have you checked the symbols in the clock?
+normal=Have you checked the numbers on the clock?
+normal=I don't think that's base 10.

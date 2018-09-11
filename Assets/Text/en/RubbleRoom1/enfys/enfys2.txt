@@ -1,1 +1,2 @@
-normal=I think the numbers are in a different base.
+normal=I think the numbers of the clock are in a different base.
+normal=Maybe base 7?
